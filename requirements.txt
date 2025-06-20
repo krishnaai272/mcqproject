@@ -1,4 +1,6 @@
 # requirements.txt
+
+# Core App Logic
 groq
 python-dotenv
 PyPDF2
@@ -7,8 +9,11 @@ python-docx
 # Voice & Audio
 gTTS
 SpeechRecognition
-openai-whisper
 
-# Streamlit UI & a more robust audio component
+# --- The Stable, Definitive Fix for Whisper ---
+# Install directly from OpenAI's GitHub repository to bypass the broken PyPI package
+git+https://github.com/openai/whisper.git
+
+# Streamlit UI
 streamlit
 streamlit-webrtc
