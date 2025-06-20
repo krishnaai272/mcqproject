@@ -1,17 +1,14 @@
 import os
 import speech_recognition as sr
-from gtts import gTTS
-from playsound import playsound
+
+
 # No longer need to import config here for the OpenAI key
 
 def speak(text: str, slow=False):
     """Converts text to speech and plays it."""
     print(f"🤖 Speaking: {text}")
     try:
-        tts = gTTS(text=text, lang='en', slow=slow)
         filename = "temp_audio.mp3"
-        tts.save(filename)
-        playsound(filename)
         os.remove(filename)
     except Exception as e:
         print(f"Error in text-to-speech: {e}")
