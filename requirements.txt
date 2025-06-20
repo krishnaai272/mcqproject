@@ -9,11 +9,9 @@ python-docx
 # Voice & Audio
 gTTS
 SpeechRecognition
-
-# --- The Stable, Definitive Fix for Whisper ---
-# Install directly from OpenAI's GitHub repository to bypass the broken PyPI package
+# Install whisper directly from GitHub for maximum stability
 git+https://github.com/openai/whisper.git
 
-# Streamlit UI
+# Streamlit UI & a simpler audio component
 streamlit
-streamlit-webrtc
+git+https://github.com/stefanrmmr/streamlit_audio_recorder.git
