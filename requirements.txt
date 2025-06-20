@@ -1,12 +1,15 @@
+# requirements.txt
 groq
 python-dotenv
 PyPDF2
+python-docx
 
-# Voice Interaction
+# Voice & Audio
 gTTS
-playsound==1.2.2
 SpeechRecognition
 openai-whisper
 PyAudio
-streamlit             # <-- Add for web UI
-streamlit-audiorec    # <-- Add for in-browser audio recording
+
+# Streamlit UI
+streamlit
+st-audiorec
