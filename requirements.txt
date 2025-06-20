@@ -1,0 +1,12 @@
+groq
+python-dotenv
+PyPDF2
+
+# Voice Interaction
+gTTS
+playsound==1.2.2
+SpeechRecognition
+openai-whisper
+PyAudio
+streamlit             # <-- Add for web UI
+streamlit-audiorec    # <-- Add for in-browser audio recording
