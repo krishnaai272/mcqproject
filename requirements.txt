@@ -8,8 +8,7 @@ python-docx
 gTTS
 SpeechRecognition
 openai-whisper
-PyAudio
 
-# Streamlit UI
+# Streamlit UI & a more robust audio component
 streamlit
-st-audiorec
+streamlit-webrtc
